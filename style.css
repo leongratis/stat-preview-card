@@ -47,7 +47,7 @@ main{
     z-index: -1;
     inset: 0;
     background: var(--tertiary-color);
-    opacity: .18;
+    opacity: .22;
 }
 
 section{
@@ -60,8 +60,8 @@ section{
 }
 
 section h1{
-    margin-bottom: 0.5rem;
-    padding-top: 0.3rem;
+    margin-bottom: 0.7rem;
+    padding-top: 0.8rem;
 }
 
 span{
@@ -116,7 +116,7 @@ main{
         z-index: -1;
         inset: 0;
         background: var(--tertiary-color);
-        opacity: .18;
+        opacity: .22;
     }
 
 
