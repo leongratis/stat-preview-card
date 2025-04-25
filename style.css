@@ -47,20 +47,21 @@ main{
     z-index: -1;
     inset: 0;
     background: var(--tertiary-color);
-    opacity: .22;
+    opacity: .29;
+    border-radius: 10px 10px 0 0;
 }
 
 section{
     text-align: center;
     background-color: var(--card-bg);
     margin-top: -4px;
-    padding: 0.3rem 0.8rem;
+    padding: 0.7rem 0.8rem;
     color: #fff;
     border-radius: 0 0 10px 10px;
 }
 
 section h1{
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.8rem;
     padding-top: 0.8rem;
 }
 
@@ -93,10 +94,10 @@ main{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         display: flex;
-        flex-direction: row-reverse;
-        height: 320px;
+        flex-direction: row;
         width: 670px;
-        
+        height: 315px;
+        background-color:;
       }
 
     .container .gradient{
@@ -108,6 +109,7 @@ main{
         width: 700px;
         position: relative;
         isolation: isolate;
+        order: 1;
     }
 
     .container .gradient::after{
@@ -116,14 +118,15 @@ main{
         z-index: -1;
         inset: 0;
         background: var(--tertiary-color);
-        opacity: .22;
+        opacity: .29;
+        border-radius: 0 10px 10px 0;
     }
 
 
     section{
         width:100%;
         margin-top: 0px;
-        padding: 2rem 4rem 0rem 2rem;
+        padding: 2rem 4rem 3rem 2rem;
         border-radius: 10px 0 0 10px;
     }
 
