@@ -52,7 +52,9 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I can use pseudo element to add an overlay color to the image.
+using flexbox to give the children of a particular container more control.
+
 To see how you can add code snippets, see below:
 
 ```html
@@ -60,7 +62,27 @@ To see how you can add code snippets, see below:
 ```
 ```css
 .proud-of-this-css {
-  color: papayawhip;
+  background-image: ;
+        background-position: ;
+        background-repeat: ;
+        background-size: ;
+        border-radius: ;
+        width: ;
+        position: ;
+        isolation: ;
+        order: ;
+}
+```
+```css
+.proud-of-this-css
+::after{
+   content: '';
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        background: var(--tertiary-color);
+        opacity: .29;
+        border-radius: 0 10px 10px 0;
 }
 ```
 ```js
